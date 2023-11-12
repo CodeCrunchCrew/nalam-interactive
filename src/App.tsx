@@ -2,6 +2,7 @@ import { useRef } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
+import NavBar from "./NavBar";
 
 import "./App.css";
 
@@ -14,6 +15,7 @@ function App() {
 
   return (
     <>
+      <NavBar />
       <LocomotiveScrollProvider options={options} containerRef={ref}>
         <main ref={ref}>
           <a href="https://vitejs.dev" target="_blank">
