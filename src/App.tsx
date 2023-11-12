@@ -13,7 +13,7 @@ function App() {
   const health = useRef(null);
   const nutrition = useRef(null);
 
-  const scrollToSection = (location: any) => {
+  const scrollToSection = (location: React.RefObject<HTMLElement>) => {
     location.current?.scrollIntoView({ behavior: "smooth" });
   };
 
