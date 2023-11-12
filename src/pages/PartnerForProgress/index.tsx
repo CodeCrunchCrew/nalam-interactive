@@ -7,11 +7,12 @@ import birdImg from '../../assets/bird.png';
 import logoGoogle from '../../assets/corporate-logos/logo-google.png';
 import logoSalesforce from '../../assets/corporate-logos/logo-salesforce.png';
 import logoIbm from '../../assets/corporate-logos/logo-ibm.png';
+import ContactForm from './ContactForm';
 
 const PartnerForProgress = () => {
   return (
-    <section className="bg-light text-dark">
-      <Container className="w-75">
+    <section className="bg-light text-dark tw-flex-wrap tw-mb-4 !tw-h-fit">
+      <Container className="w-75 tw-basis-full">
         <Row className="mb-4 align-items-center">
           <Col className="text-start">
             <h1 className="display-4">Partner for Progress with Nalam</h1>
@@ -57,6 +58,16 @@ const PartnerForProgress = () => {
           </Col>
         </Row>
       </Container>
+      <div className="tw-basis-full tw-mx-16 tw-my-8 tw-flex tw-gap-20">
+        <ContactForm />
+        <Col className="tw-mt-12 tw-text-left">
+          <h2>Contact Us!</h2>
+          <div>
+            <p className="tw-my-0">Want to get involved?</p>
+            <p className="tw-my-0">Let’s talk</p>
+          </div>
+        </Col>
+      </div>
     </section>
   );
 };
