@@ -1,6 +1,9 @@
 import Button from 'react-bootstrap/Button';
 import whoAreWeRightImg from '../../assets/who-are-we-right.png';
 import whoAreWeLeftImg from '../../assets/who-are-we-left.png';
+import educationIcon from '../../assets/education-icon.png';
+import healthIcon from '../../assets/health-icon.png';
+import nutritionIcon from '../../assets/nutrition-icon.png';
 
 interface WhoAreWeProps {
   educationRef: React.RefObject<HTMLElement>;
@@ -46,35 +49,38 @@ const WhoAreWe = ({ educationRef, healthRef, nutritionRef }: WhoAreWeProps) => {
             </div>
           </div>
           <div className="mt-4 justify-content-center col-6">
-            <h1 className="fs-4 tw-my-2">
+            <h1 className="fs-4 my-2">
               Who do <b>YOU</b> want to be in this story?
             </h1>
             <div className="tw-flex">
-              <div className="ratio ratio-21x9 mx-2">
+              <div className="ratio ratio-1x1 mx-2">
                 <Button
                   variant="warning"
-                  className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
+                  className="play-buttons rounded-4 d-flex flex-column justify-content-center align-items-center"
                   onClick={() => handleClick(educationRef)}
                 >
-                  Play a part in EDUCATION
+                  <img src={educationIcon} className="object-fit-cover rounded-4" />
+                  <b>Play a part in EDUCATION</b>
                 </Button>
               </div>
-              <div className="ratio ratio-21x9 mx-2">
+              <div className="ratio ratio-1x1 mx-2">
                 <Button
                   variant="warning"
-                  className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
+                  className="play-buttons rounded-4 d-flex flex-column justify-content-center align-items-center"
                   onClick={() => handleClick(healthRef)}
                 >
-                  Play a part in HEALTH
+                  <img src={healthIcon} className="object-fit-cover p-1 rounded-4" />
+                  <b>Play a part in HEALTHs</b>
                 </Button>
               </div>
-              <div className="ratio ratio-21x9 mx-2">
+              <div className="ratio ratio-1x1 mx-2">
                 <Button
                   variant="warning"
-                  className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
+                  className="play-buttons rounded-4 d-flex flex-column justify-content-center align-items-center"
                   onClick={() => handleClick(nutritionRef)}
                 >
-                  Play a part in NUTRITION
+                  <img src={nutritionIcon} className="object-fit-cover p-3 rounded-4" />
+                  <b>Play a part in NUTRITION</b>
                 </Button>
               </div>
             </div>
