@@ -1,17 +1,34 @@
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+import Button from 'react-bootstrap/Button';
+
 function NavBar() {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <div className="navbar-brand">
-            <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg" loading="lazy" width="87" height="23" alt=""></img>
-          </div>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </nav>
-    </>
+    <Navbar bg="light" expand="lg" sticky="top">
+      <Navbar.Brand href="#" className="mx-3">
+        <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg"  loading="lazy" width="87" height="23"></img>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="#">
+            <Button variant="outline-dark" className="my-2">Home</Button>
+          </Nav.Link>
+          <Nav.Link href="#">
+            <Button variant="outline-dark" className="my-2">Sponsor a Girl</Button>
+          </Nav.Link>
+          <Nav.Link href="#">
+            <Button variant="outline-dark" className="my-2">Stories</Button>
+          </Nav.Link>
+          <Nav.Link href="#">
+            <Button variant="outline-dark" className="my-2">About</Button>
+          </Nav.Link>
+          <Nav.Link href="#">
+            <Button variant="outline-dark" className="my-2">Contact</Button>
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
