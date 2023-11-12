@@ -1,6 +1,7 @@
 import { useRef } from 'react';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import NavBar from './NavBar';
+import Button from 'react-bootstrap/Button';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
           <h1 className="my-0 mx-auto">Main</h1>
         </main>
       </LocomotiveScrollProvider>
+      <Button variant="outline-success" size="lg" style={{position: 'fixed', right: 10, bottom: 10, zIndex: 999}}>Donate</Button>
     </>
   );
 }

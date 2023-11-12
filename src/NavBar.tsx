@@ -6,7 +6,11 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Navbar.Brand href="#" className="mx-3">
-        <img src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg"  loading="lazy" width="87" height="23"></img>
+        <img
+          src="https://assets-global.website-files.com/651eac31835f453a27bb7c5a/651eaf8dda4d313d93565f20_Nalam%20Logo.svg"
+          alt="Logo"
+          height="30"
+        />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
