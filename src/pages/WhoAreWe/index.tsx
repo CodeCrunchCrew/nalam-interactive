@@ -38,15 +38,15 @@ const WhoAreWe = ({ educationRef, healthRef, nutritionRef, selfRef }: WhoAreWePr
             </p>
           </div>
           <div className="col-6 justify-content-center">
-            <div className="ratio ratio-4x3">
-              <img src={whoAreWeRightImg} className="object-fit-cover rounded-4" />
+            <div className="ratio ratio-4x3" style={{ borderRadius: '40px' }}>
+              <img src={whoAreWeRightImg} className="object-fit-cover rounded-4" style={{ borderRadius: '40px' }} />
             </div>
           </div>
         </div>
         <div className="row align-items-center">
           <div className="col-6">
-            <div className="ratio ratio-16x9 mt-4">
-              <img src={whoAreWeLeftImg} className="object-fit-cover rounded-4" />
+            <div className="ratio ratio-16x9 mt-4" style={{ borderRadius: '40px' }} >
+              <img src={whoAreWeLeftImg} className="object-fit-cover " style={{ borderRadius: '40px' }} />
             </div>
           </div>
           <div className="mt-4 justify-content-center col-6">
