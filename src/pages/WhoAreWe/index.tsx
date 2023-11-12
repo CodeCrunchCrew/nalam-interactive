@@ -53,34 +53,34 @@ const WhoAreWe = ({ educationRef, healthRef, nutritionRef }: WhoAreWeProps) => {
               Who do <b>YOU</b> want to be in this story?
             </h1>
             <div className="tw-flex">
-              <div className="ratio ratio-1x1 mx-2">
+              <div className="ratio ratio-1x1 mx-2 tw-my-4">
                 <Button
                   variant="warning"
                   className="play-buttons rounded-4 d-flex flex-column justify-content-center align-items-center"
                   onClick={() => handleClick(educationRef)}
                 >
                   <img src={educationIcon} className="object-fit-cover rounded-4" />
-                  <b>Play a part in EDUCATION</b>
+                  <b className="tw-uppercase tw-text-[#A84439]">Education</b>
                 </Button>
               </div>
-              <div className="ratio ratio-1x1 mx-2">
+              <div className="ratio ratio-1x1 mx-2 tw-my-4">
                 <Button
                   variant="warning"
                   className="play-buttons rounded-4 d-flex flex-column justify-content-center align-items-center"
                   onClick={() => handleClick(healthRef)}
                 >
                   <img src={healthIcon} className="object-fit-cover p-1 rounded-4" />
-                  <b>Play a part in HEALTHs</b>
+                  <b className="tw-uppercase tw-text-[#A84439]">Health Wellness</b>
                 </Button>
               </div>
-              <div className="ratio ratio-1x1 mx-2">
+              <div className="ratio ratio-1x1 mx-2 tw-my-4">
                 <Button
                   variant="warning"
                   className="play-buttons rounded-4 d-flex flex-column justify-content-center align-items-center"
                   onClick={() => handleClick(nutritionRef)}
                 >
                   <img src={nutritionIcon} className="object-fit-cover p-3 rounded-4" />
-                  <b>Play a part in NUTRITION</b>
+                  <b className="tw-uppercase tw-text-[#A84439]">Nutrition</b>
                 </Button>
               </div>
             </div>
