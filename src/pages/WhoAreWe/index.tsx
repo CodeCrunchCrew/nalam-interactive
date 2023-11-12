@@ -17,7 +17,7 @@ const WhoAreWe = ({ educationRef, healthRef, nutritionRef }: WhoAreWeProps) => {
   };
 
   return (
-    <section className="text-dark tw-bg-[#829ED5]">
+    <section className="text-dark tw-bg-[#829ED5] tw-h-fit tw-py-8">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-6 text-start">
