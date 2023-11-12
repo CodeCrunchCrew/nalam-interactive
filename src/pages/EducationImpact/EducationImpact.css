@@ -1,0 +1,16 @@
+.education-text {
+  color: white;
+  margin: 0;
+  text-align: left;
+  padding: 10px;
+}
+
+.education-impact {
+  background-color: #B76F2E;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+
+}
