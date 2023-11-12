@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
+import NavBar from './NavBar';
 
 import './App.css';
 
@@ -12,6 +13,7 @@ function App() {
 
   return (
     <>
+      <NavBar />
       <LocomotiveScrollProvider options={options} containerRef={ref}>
         <main ref={ref}>
           <h1 className="my-0 mx-auto">Main</h1>
