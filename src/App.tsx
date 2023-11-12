@@ -3,7 +3,7 @@ import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import NavBar from './NavBar';
 import Button from 'react-bootstrap/Button';
 
-import './App.css';
+import './Locomotive.css';
 
 function App() {
   const ref = useRef(null);
