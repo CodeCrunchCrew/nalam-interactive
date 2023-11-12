@@ -58,9 +58,9 @@ const PartnerForProgress = () => {
           </Col>
         </Row>
       </Container>
-      <div className="tw-basis-full tw-mx-16 tw-my-8 tw-flex tw-gap-20">
+      <div className="tw-basis-full tw-mx-16 tw-my-8 tw-flex tw-gap-20 tw-justify-center">
         <ContactForm />
-        <Col className="tw-mt-12 tw-text-left">
+        <Col className="tw-mt-12 tw-text-left" xs={5}>
           <h2>Contact Us!</h2>
           <div>
             <p className="tw-my-0">Want to get involved?</p>
