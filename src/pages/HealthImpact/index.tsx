@@ -67,7 +67,6 @@ const HealthImpact = ({ ref }: HealthImpactProps) => {
             <p
               style={{
                 color: "white",
-                height: "10vh",
                 margin: 0,
               }}
             >
@@ -120,7 +119,6 @@ const HealthImpact = ({ ref }: HealthImpactProps) => {
             <p
               style={{
                 color: "white",
-                height: "10vh",
                 margin: 0,
               }}
             >
