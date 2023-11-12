@@ -37,7 +37,7 @@ function App() {
         <Stories />
       </main>
       <Button
-        className="tw-bg-[#25348F] tw-text-white tw-rounded-3xl tw-px-10 tw-border-0"
+        className="tw-bg-[#25348F] hover:tw-bg-indigo-600 tw-text-white tw-rounded-3xl tw-px-10 tw-border-0"
         href="https://www.nalamindia.org/donate"
         variant="outline-success"
         size="lg"

@@ -18,7 +18,7 @@ const Welcome = () => {
         <Button
           href="https://www.nalamindia.org/donate"
           variant="success my-4 rounded-pill"
-          className="tw-bg-blue-900 tw-border-0 tw-px-6"
+          className="tw-bg-blue-900 tw-border-0 tw-px-6 hover:tw-bg-indigo-600"
           size="lg"
         >
           Learn More
