@@ -15,3 +15,11 @@ section {
   text-align: center;
   scroll-snap-align: start;
 }
+
+.overlay-text {
+  display: none;
+}
+
+.image-container:hover .overlay-text {
+  display: block;
+}
