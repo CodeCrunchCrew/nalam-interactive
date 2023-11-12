@@ -9,15 +9,16 @@ interface WhoAreWeProps {
   educationRef: React.RefObject<HTMLElement>;
   healthRef: React.RefObject<HTMLElement>;
   nutritionRef: React.RefObject<HTMLElement>;
+  selfRef?: React.RefObject<HTMLElement>;
 }
 
-const WhoAreWe = ({ educationRef, healthRef, nutritionRef }: WhoAreWeProps) => {
+const WhoAreWe = ({ educationRef, healthRef, nutritionRef, selfRef }: WhoAreWeProps) => {
   const handleClick = (location: React.RefObject<HTMLElement>) => {
     location.current?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section className="text-dark tw-bg-[#829ED5] tw-h-fit tw-py-8">
+    <section ref={selfRef} className="text-dark tw-bg-[#829ED5] tw-h-fit tw-py-8" id="#who-are-we">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-6 text-start">
