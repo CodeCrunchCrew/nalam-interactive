@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
-import placeholderImg from '../../assets/placeholder.png';
+import whoAreWeRightImg from '../../assets/who-are-we-right.png';
+import whoAreWeLeftImg from '../../assets/who-are-we-left.png';
 
 interface WhoAreWeProps {
   educationRef: React.RefObject<HTMLElement>;
@@ -13,10 +14,10 @@ const WhoAreWe = ({ educationRef, healthRef, nutritionRef }: WhoAreWeProps) => {
   };
 
   return (
-    <section className="bg-light text-dark tw-pt-60">
-      <div className="container d-inline-flex column-gap-4">
-        <div className="col">
-          <div className="col text-start">
+    <section className="text-dark tw-bg-[#829ED5]">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-6 text-start">
             <h1 className="display-3">Who Are We?</h1>
             <p className="fs-5">
               Founded in Germany in 2014, and launched in the USA in 2023, NALAM was the result of
@@ -32,42 +33,50 @@ const WhoAreWe = ({ educationRef, healthRef, nutritionRef }: WhoAreWeProps) => {
               their lives and break cycles of hardship.
             </p>
           </div>
-          <div className="ratio ratio-16x9 mt-4">
-            <img src={placeholderImg} className="object-fit-cover rounded-4" />
+          <div className="col-6 justify-content-center">
+            <div className="ratio ratio-4x3">
+              <img src={whoAreWeRightImg} className="object-fit-cover rounded-4" />
+            </div>
           </div>
         </div>
-        <div className="col">
-          <div className="ratio ratio-16x9">
-            <img src={placeholderImg} className="object-fit-cover rounded-4" />
+        <div className="row align-items-center">
+          <div className="col-6">
+            <div className="ratio ratio-16x9 mt-4">
+              <img src={whoAreWeLeftImg} className="object-fit-cover rounded-4" />
+            </div>
           </div>
-          <h1 className="display-6">Who Are You?</h1>
-          <div className="mt-4 d-flex justify-content-center">
-            <div className="ratio ratio-21x9 mx-2">
-              <Button
-                variant="warning"
-                className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
-                onClick={() => handleClick(educationRef)}
-              >
-                Play a part in EDUCATION
-              </Button>
-            </div>
-            <div className="ratio ratio-21x9 mx-2">
-              <Button
-                variant="warning"
-                className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
-                onClick={() => handleClick(healthRef)}
-              >
-                Play a part in HEALTH
-              </Button>
-            </div>
-            <div className="ratio ratio-21x9 mx-2">
-              <Button
-                variant="warning"
-                className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
-                onClick={() => handleClick(nutritionRef)}
-              >
-                Play a part in NUTRITION
-              </Button>
+          <div className="mt-4 justify-content-center col-6">
+            <h1 className="fs-4 tw-my-2">
+              Who do <b>YOU</b> want to be in this story?
+            </h1>
+            <div className="tw-flex">
+              <div className="ratio ratio-21x9 mx-2">
+                <Button
+                  variant="warning"
+                  className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
+                  onClick={() => handleClick(educationRef)}
+                >
+                  Play a part in EDUCATION
+                </Button>
+              </div>
+              <div className="ratio ratio-21x9 mx-2">
+                <Button
+                  variant="warning"
+                  className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
+                  onClick={() => handleClick(healthRef)}
+                >
+                  Play a part in HEALTH
+                </Button>
+              </div>
+              <div className="ratio ratio-21x9 mx-2">
+                <Button
+                  variant="warning"
+                  className="play-buttons rounded-4 d-flex justify-content-center align-items-center"
+                  onClick={() => handleClick(nutritionRef)}
+                >
+                  Play a part in NUTRITION
+                </Button>
+              </div>
             </div>
           </div>
         </div>
