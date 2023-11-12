@@ -14,7 +14,7 @@ function NavBar() {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           <Nav.Link href="#">
             <Button variant="outline-dark" className="my-2">Home</Button>
           </Nav.Link>
