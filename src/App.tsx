@@ -16,6 +16,10 @@ function App() {
   const nutrition = useRef(null);
   const whoAreWe = useRef(null);
 
+  const scrollToTop = (location: React.RefObject<HTMLElement>) => {
+    location.current?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       <NavBar />
@@ -36,9 +40,7 @@ function App() {
       <Button
         className=" tw-bg-transparent tw-text-black tw-border tw-border-1 hover:tw-bg-indigo-60 tw-rounded-full tw-px-4 tw-py-2 tw-text-lg"
         size="lg"
-        onClick={() => {
-          whoAreWe.current?.scrollIntoView({ behavior: 'smooth' });
-        }}
+        onClick={() => scrollToTop(whoAreWe)}
         style={{ position: 'fixed', left: 20, bottom: 20, zIndex: 999 }}
       >
         ^
