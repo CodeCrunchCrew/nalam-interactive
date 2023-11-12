@@ -28,7 +28,11 @@ function App() {
               Changing Lives...
             </h1>
             <h2 className="display-1 text-light">One girl at a time.</h2>
-            <Button variant="success my-4 rounded-pill" size="lg">
+            <Button
+              href="https://www.nalamindia.org/donate"
+              variant="success my-4 rounded-pill"
+              size="lg"
+            >
               Donate
             </Button>
           </div>
@@ -212,6 +216,7 @@ function App() {
       </main>
 
       <Button
+        href="https://www.nalamindia.org/donate"
         variant="outline-success"
         size="lg"
         style={{ position: "fixed", right: 10, bottom: 10, zIndex: 999 }}
