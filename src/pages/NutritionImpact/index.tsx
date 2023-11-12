@@ -69,10 +69,9 @@ const NutritionImpact = ({ nutritionRef }: NutritionImpactProps) => {
                 margin: 0,
               }}
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              For a kitchen upgrade in 2021, as cooking for 120 girls with wood
+              and damaged gas lines is dangerous, costly and pollutes air. Items
+              include boiler, rice cookers, milk cooker, IDLY box, new pipes...
             </p>
           </div>
         </div>
@@ -121,10 +120,10 @@ const NutritionImpact = ({ nutritionRef }: NutritionImpactProps) => {
                 margin: 0,
               }}
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              Initiated a project to rehabilitate 426 disabled children near an
+              orphanage, in collaboration with a German partner NGO, aiming to
+              enhance opportunities, elevate social status, and improve health
+              conditions.
             </p>
           </div>
         </div>

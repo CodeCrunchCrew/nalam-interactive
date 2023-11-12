@@ -56,10 +56,9 @@ const EducationImpact = ({ educationRef }: EducationImpactProps) => {
             }}
           >
             <p className="education-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              4 classrooms are currently being built. The purchase of the
+              following items is in progress: Projectors, school desks,
+              blackboards.
             </p>
           </div>
         </div>
@@ -94,10 +93,8 @@ const EducationImpact = ({ educationRef }: EducationImpactProps) => {
             }}
           >
             <p className="education-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              Enhancing the learning experience, $2K was raised to introduce
+              English and Self-Defense classes.
             </p>
           </div>
         </div>
@@ -132,10 +129,8 @@ const EducationImpact = ({ educationRef }: EducationImpactProps) => {
             }}
           >
             <p className="education-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              For 11 girls entering 12th grade, a total of $14.5K was raised to
+              secure their continued education.
             </p>
           </div>
         </div>
@@ -170,10 +165,7 @@ const EducationImpact = ({ educationRef }: EducationImpactProps) => {
             }}
           >
             <p className="education-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              Supported 13 girls pursuing vocational training after 10th grade
             </p>
           </div>
         </div>

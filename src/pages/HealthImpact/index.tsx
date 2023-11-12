@@ -70,10 +70,9 @@ const HealthImpact = ({ healthRef }: HealthImpactProps) => {
                 margin: 0,
               }}
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              Donated for food, medication, etc. for the hungry and the sick.
+              Because of Covid 19 many have lost their meager incomes, are
+              completely cut off from the outside world.
             </p>
           </div>
         </div>
@@ -122,10 +121,10 @@ const HealthImpact = ({ healthRef }: HealthImpactProps) => {
                 margin: 0,
               }}
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla
-              dicta nam sed nemo, sequi quidem illum cumque vitae, molestiae
-              facere quam voluptates deserunt, ipsam sunt non tempore suscipit
-              incidunt ex.
+              Initiated a project to rehabilitate 426 disabled children near an
+              orphanage, in collaboration with a German partner NGO, aiming to
+              enhance opportunities, elevate social status, and improve health
+              conditions.
             </p>
           </div>
         </div>
