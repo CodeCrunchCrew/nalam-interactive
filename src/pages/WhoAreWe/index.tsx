@@ -13,7 +13,7 @@ const WhoAreWe = ({ educationRef, healthRef, nutritionRef }: WhoAreWeProps) => {
   };
 
   return (
-    <section className="bg-light text-dark">
+    <section className="bg-light text-dark tw-pt-60">
       <div className="container d-inline-flex column-gap-4">
         <div className="col">
           <div className="col text-start">
